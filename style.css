@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  color: white;  
+  font-family: 'Libre Baskerville', serif;
+} 
+
+body {
+  background-color: black;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-attachment: fixed;
+  background-image: url('Background.png');
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  align-self: center;
+  line-height: 1.5;
+}
+
+p {
+  align-items: center;
+  font-size: 20px;
+  max-width: 50ch; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.quizStarterScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.quizModalContainer {
+  margin: 0;
+  padding: 0;
+}
+
+.currentSlide {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quizHeader {
+  width: auto;
+  height: 200px;
+  border-radius: 15px;
+}  
+
+.hidden {
+  display: none;
+}
+
+.bttn {
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  background-color: darkslategray;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 380px) {
+   }
+  
+  h1 {
+    font-size: 18px;
+  }
+
+.quizStarterScreen {
+  padding: 5%;
+}
+
+@media screen and (min-height: 680px) {
+  
+  }
